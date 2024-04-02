@@ -2,10 +2,8 @@ name: Python Proj
 
 on:
   push:
-    branches:
-      -main
-  pull_request: 
-    types: [closed]
+  # pull_request: 
+  #   types: [closed]
 
 # permission can be added at job level or workflow level
 permissions:
