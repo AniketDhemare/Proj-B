@@ -1,8 +1,8 @@
 name: Python Proj
 
 on:
-  push:
-  # pull_request:
+  pull_request:
+    types: [closed]
 
 jobs:
   build-and-deploy:
